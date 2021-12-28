@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  overflow: auto;
+}
+
+*,
+button,
+input {
+  border: 0;
+  outline: 0;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
