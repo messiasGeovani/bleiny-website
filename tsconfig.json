@@ -15,7 +15,9 @@
       "~/*": ["./src/*"],
       "@/*": ["./src/*"]
     },
-    "types": ["@nuxt/types", "@types/node"]
+    "types": ["@nuxt/types", "@types/node", "jest"],
+    "typeRoots": ["./@types"]
   },
-  "exclude": ["node_modules", ".nuxt", "dist"]
+  "exclude": ["node_modules", ".nuxt", "dist"],
+  "ignoreNotFoundWarnings": true
 }
