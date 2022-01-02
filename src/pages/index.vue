@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import HomeSection from '@/components/HomeSection.vue'
 
 export default {
