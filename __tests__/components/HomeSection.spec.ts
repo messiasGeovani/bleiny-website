@@ -1,10 +1,9 @@
 import { get, setupTest } from '@nuxt/test-utils'
-import config from '../../nuxt.config'
 
 describe('App', () => {
-  setupTest({ server: true, config, build: true })
+  setupTest({ server: true, waitFor: 1000 })
 
-  it('renders the index page', async () => {
+  it('renders the home section page', async () => {
     const { body } = await get('/')
 
     expect(body).toContain('<a>A Link</a>')
