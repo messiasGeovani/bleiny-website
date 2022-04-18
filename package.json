@@ -21,7 +21,7 @@
     "*.**": "prettier --check --ignore-unknown"
   },
   "dependencies": {
-    "core-js": "^3.20.3",
+    "core-js": "^3.22.0",
     "nuxt": "^2.15.8",
     "nuxt-buefy": "^0.4.14",
     "sass": "^1.49.0",
